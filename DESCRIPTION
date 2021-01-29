@@ -2,8 +2,8 @@ Package: khsverse
 Title: A package collection for epidemiology research
 Version: 0.0.1
 Authors@R: c(
-    person("Michael Wayne", "Kearney", , email = "mike.wayne.kearney@gmail.com", role = c("aut", "cre")),
-    person("Konrad", "Stopsack", , email = "stopsack@mskcc.org", role = c("aut")))
+    person("Michael Wayne", "Kearney", , email = "mike.wayne.kearney@gmail.com", role = c("aut")),
+    person("Konrad", "Stopsack", , email = "stopsack@mskcc.org", role = c("aut", "cre")))
 Description: The 'khsverseverse' is selection of packages designed to be loaded
     in concert for epidemiology-type analyses. The package is created via the pkgverse 
     package by Michael Kearney.
