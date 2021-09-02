@@ -1,4 +1,6 @@
-core <- c("dplyr", "tidyr", "tibble", "forcats", "readr", "purrr", "stringr", "ggplot2", "broom", "labelled", "readxl", "survival", "cowplot", "viridis", "gtsummary", "khsmisc")
+core <- c("dplyr", "tidyr", "tibble", "forcats", "readr", "purrr", "stringr",
+          "ggplot2", "broom", "labelled", "readxl", "survival", "cowplot",
+          "viridis", "gt", "khsmisc", "risks")
 
 core_loaded <- function() {
   search <- paste0("package:", core)
