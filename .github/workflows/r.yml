@@ -31,7 +31,8 @@ jobs:
           - { os: macOS-latest, r: "release", pkgdown: "true" }
           #- { os: macOS-latest, r: "devel" }
           #- { os: ubuntu-latest, r: "release" }
-
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Checkout V2
