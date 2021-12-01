@@ -21,6 +21,8 @@
 <![endif]-->
 </head>
 <body data-spy="scroll" data-target="#toc">
+    
+
     <div class="container template-home">
       <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -33,18 +35,12 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">khsverse</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.2</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.0.2</span>
       </span>
     </div>
 
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-<li>
-  <a href="index.html">
-    <span class="fas fa-home fa-lg"></span>
-     
-  </a>
-</li>
 <li>
   <a href="reference/index.html">Reference</a>
 </li>
@@ -54,7 +50,7 @@
       </ul>
 <ul class="nav navbar-nav navbar-right">
 <li>
-  <a href="https://github.com/stopsack/khsverse/">
+  <a href="https://github.com/stopsack/khsverse/" class="external-link">
     <span class="fab fa-github fa-lg"></span>
      
   </a>
@@ -71,36 +67,36 @@
 
       </header><div class="row">
   <div class="contents col-md-9">
-<div id="khsverse" class="section level1">
-<div class="page-header"><h1 class="hasAnchor">
-<a href="#khsverse" class="anchor"></a>khsverse</h1></div>
+<div class="section level1">
+<div class="page-header"><h1 id="khsverse">khsverse<a class="anchor" aria-label="anchor" href="#khsverse"></a>
+</h1></div>
 <!-- badges: start -->
 <!-- badges: end -->
 <p>The goal of khsverse is to provide a simple way of loading a number of packages for epidemiology research.</p>
-<div id="installation" class="section level2">
-<h2 class="hasAnchor">
-<a href="#installation" class="anchor"></a>Installation</h2>
-<p>The khsmisc package can be installed from <a href="https://stopsack.github.io/khsverse">GitHub</a>. A CRAN submission is not planned.</p>
+<div class="section level2">
+<h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
+</h2>
+<p>The khsmisc package can be installed from <a href="https://stopsack.github.io/khsverse" class="external-link">GitHub</a>. A CRAN submission is not planned.</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co"># if "remotes" library is missing, install it first:</span>
 <span class="co">#   install.packages("remotes")</span>
-<span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op">(</span><span class="st">"stopsack/khsverse"</span><span class="op">)</span></code></pre></div>
+<span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"stopsack/khsverse"</span><span class="op">)</span></code></pre></div>
 </div>
-<div id="loaded-packages" class="section level2">
-<h2 class="hasAnchor">
-<a href="#loaded-packages" class="anchor"></a>Loaded Packages</h2>
-<p>When loading <code><a href="https://github.com/stopsack/khsverse">library(khsverse)</a></code>, the following dependencies will be made available:</p>
+<div class="section level2">
+<h2 id="loaded-packages">Loaded Packages<a class="anchor" aria-label="anchor" href="#loaded-packages"></a>
+</h2>
+<p>When loading <code><a href="https://github.com/stopsack/khsverse" class="external-link">library(khsverse)</a></code>, the following dependencies will be made available:</p>
 <ul>
 <li>
-<strong>Data handling:</strong> the whole universe of the <a href="https://www.tidyverse.org/packages/">tidyverse</a>; variable labels via <a href="https://larmarange.github.io/labelled/">labelled</a>; reading Excel files via <a href="https://readxl.tidyverse.org/">readxl</a>.</li>
+<strong>Data handling:</strong> the whole universe of the <a href="https://www.tidyverse.org/packages/" class="external-link">tidyverse</a>; variable labels via <a href="https://larmarange.github.io/labelled/" class="external-link">labelled</a>; reading Excel files via <a href="https://readxl.tidyverse.org/" class="external-link">readxl</a>.</li>
 <li>
-<strong>Tables:</strong> formatted tables via <a href="https://gt.rstudio.com/">gt</a>.</li>
+<strong>Tables:</strong> formatted tables via <a href="https://gt.rstudio.com/" class="external-link">gt</a>.</li>
 <li>
-<strong>Figures:</strong> <a href="https://ggplot2.tidyverse.org/">ggplot2</a>; red/green blindness-proof color palettes via <a href="https://cran.r-project.org/web/packages/viridis/index.html">viridis</a>; arranging figure panels via <a href="https://wilkelab.org/cowplot/">cowplot</a>.</li>
+<strong>Figures:</strong> <a href="https://ggplot2.tidyverse.org/" class="external-link">ggplot2</a>; red/green blindness-proof color palettes via <a href="https://cran.r-project.org/web/packages/viridis/index.html" class="external-link">viridis</a>; arranging figure panels via <a href="https://wilkelab.org/cowplot/" class="external-link">cowplot</a>.</li>
 <li>
-<strong>Analyses:</strong> time-to-event analyses using <a href="https://cran.r-project.org/web/packages/survival/index.html">survival</a>; accessing regression model results via <a href="https://broom.tidymodels.org/">broom</a>; risk ratios and differences via <a href="https://stopsack.github.io/risks/">risks</a>.</li>
+<strong>Analyses:</strong> time-to-event analyses using <a href="https://cran.r-project.org/web/packages/survival/index.html" class="external-link">survival</a>; accessing regression model results via <a href="https://broom.tidymodels.org/" class="external-link">broom</a>; risk ratios and differences via <a href="https://stopsack.github.io/risks/" class="external-link">risks</a>.</li>
 <li>
-<strong>Custom:</strong> extra functions from the <a href="https://stopsack.github.io/khsmisc/">khsmisc package</a>.</li>
+<strong>Custom:</strong> extra functions from the <a href="https://stopsack.github.io/khsmisc/" class="external-link">khsmisc package</a>.</li>
 </ul>
 </div>
 </div>
@@ -108,39 +104,51 @@
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <div class="links">
-<h2>Links</h2>
+<h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
-<li>Browse source code at <br><a href="https://github.com/stopsack/khsverse/">https://​github.com/​stopsack/​khsverse/​</a>
-</li>
-<li>Report a bug at <br><a href="https://github.com/stopsack/khsverse/issues">https://​github.com/​stopsack/​khsverse/​issues</a>
-</li>
+<li><a href="https://github.com/stopsack/khsverse/" class="external-link">Browse source code</a></li>
+<li><a href="https://github.com/stopsack/khsverse/issues" class="external-link">Report a bug</a></li>
 </ul>
 </div>
+
 <div class="license">
-<h2>License</h2>
+<h2 data-toc-skip>License</h2>
 <ul class="list-unstyled">
 <li><a href="LICENSE.html">Full license</a></li>
 <li><small>GPL (&gt;= 3)</small></li>
 </ul>
 </div>
+
+
+<div class="citation">
+<h2 data-toc-skip>Citation</h2>
+<ul class="list-unstyled">
+<li><a href="authors.html#citation">Citing khsverse</a></li>
+</ul>
+</div>
+
 <div class="developers">
-<h2>Developers</h2>
+<h2 data-toc-skip>Developers</h2>
 <ul class="list-unstyled">
 <li>Michael Wayne Kearney <br><small class="roles"> Author </small>  </li>
 <li>Konrad Stopsack <br><small class="roles"> Author, maintainer </small>  </li>
 </ul>
 </div>
 
+
+
   </div>
 </div>
 
 
       <footer><div class="copyright">
-  <p>Developed by Michael Wayne Kearney, Konrad Stopsack.</p>
+  <p></p>
+<p>Developed by Michael Wayne Kearney, Konrad Stopsack.</p>
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.1.</p>
+  <p></p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.0.</p>
 </div>
 
       </footer>
@@ -148,6 +156,8 @@
 
   
 
+
+  
 
   </body>
 </html>
